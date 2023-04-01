@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mysql://mysqldb-azure.mysql.database.azure.com:3306/employees?useSSL=true
+    username: rahul07
+    password: vxlfxd671190@
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      dialect : org.hibernate.dialect.MySQL8Dialect
+
+server:
+  port: 8082
+  
